@@ -49,14 +49,14 @@ const ProductList = styled.div`
   display: grid;
   grid-template-columns: 100%;
   grid-row-gap: 3rem;
-  @media (min-widht: 576px) {
+  @media (min-width: 576px) {
     grid-template-columns: 95%;
   }
-  @media (min-widht: 768px) {
+  @media (min-width: 768px) {
     grid-template-columns: 80%;
     justify-content: center;
   }
-  @media (min-widht: 992px) {
+  @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
   }
